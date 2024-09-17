@@ -1,0 +1,41 @@
+.mainSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+width: 75%;
+}
+
+.texInput {
+    display: block;
+    width: 400px;
+    line-height: 24px;
+    padding:10px 30px;
+    padding-bottom: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    
+}
+
+.mainBtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn{
+    margin-top: 20px;
+    background: #eaeeee;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(222, 218, 218);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.btn:hover{
+    border: 1px solid rgb(28, 26, 26);
+
+}
